@@ -93,12 +93,14 @@ body {
     color: white;
 }
 
-.main-container {
+.skills-style {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: stretch;
 }
+
+.left{}
 
 
 /* ==============
