@@ -66,15 +66,24 @@ body {
 }
 
 .wrapper {
+
+
+
     width: 90%;
-    margin: 0 5%;
+    margin: 5% 5%;
 }
 
 /* ===================
     ALL: Orange Theme
    =================== */
 
+header, section, aside {
+    margin: 0 20px;
+}
+
+
 .header-container {
+    /*margin: 20px;*/
     border-bottom: 20px solid #e44d26;
 }
 
@@ -100,7 +109,13 @@ body {
     align-items: stretch;
 }
 
-.left{}
+.skills {
+}
+
+.left{
+    border: 3px solid;
+    margin: 0 auto;
+}
 
 
 /* ==============
@@ -140,6 +155,7 @@ nav a:hover {
    ============== */
 
 .main {
+    border: 3px solid;
     padding: 30px 0;
 }
 
@@ -155,6 +171,9 @@ nav a:hover {
 .footer-container footer {
     color: white;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /* ===============
@@ -267,7 +286,6 @@ nav a:hover {
    =============== */
 
     .wrapper {
-        width: 1026px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
